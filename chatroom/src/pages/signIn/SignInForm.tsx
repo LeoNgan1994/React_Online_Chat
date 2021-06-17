@@ -9,7 +9,7 @@ import {
   Segment,
 } from "semantic-ui-react";
 
-export const LoginForm = () => {
+export const LoginForm = ({}) => {
   const [email, setEmail] = useState<any>();
   const [password, setPassword] = useState<string | number | undefined>();
 
